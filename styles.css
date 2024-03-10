@@ -133,3 +133,20 @@ nav {
     transition: 0.5s;
     z-index: -1;
 }
+
+.nav_links.open {
+    transform: translateY(0);
+}
+
+.nav_links a {
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.nav_links a:hover {
+    color:var(--white);
+}
+
+.btn_large {
+    display: none;
+}
