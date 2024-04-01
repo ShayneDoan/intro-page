@@ -148,3 +148,39 @@ nav {
 .btn_large {
     display: none;
 }
+
+@media (width > 768px){
+    nav{
+        padding: 32px 16px;
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav_bar {
+        padding: 0;
+        background-image: none;
+    }
+
+    .nav_links {
+        padding: 0;
+        width: unset;
+        position: static;
+        transform: none;
+        flex-direction: row;
+        background-image: none;
+    }
+
+    .nav_links a:hover{
+        color: var(--secondary-color);
+    }
+
+    .nav_links li:last-child {
+        display: none;
+    }
+
+    .btn_large {
+        display:flex;
+    }
+}
