@@ -42,17 +42,22 @@ ScrollReveal().reveal(".header_content .header_btn", {
 ScrollReveal().reveal(".about_content .section_description", {
     ...scrollRevealOption,
     delay:500
-})
+});
 
 ScrollReveal().reveal(".about_content .about_btn", {
     ...scrollRevealOption,
     delay:1000
-})
+});
 
 //service container
 ScrollReveal().reveal(".service_card", {
     ...scrollRevealOption,
     interval: 500,
-})
+});
 
+//portfolio container
+ScrollReveal().reveal(".portfolio_card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
 
