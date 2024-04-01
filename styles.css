@@ -310,6 +310,39 @@ nav {
     font-weight: 500;
 }
 
+.contact_container {
+    text-align:center;
+}
+
+.contact_container .logo {
+    margin-bottom: 16px;
+}
+
+.contact_socials {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.contact_socials a {
+    padding: 7px 10px;
+    font-size: 24px;
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.contact_socials a:hover {
+    background: var(--gradient-2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 @media (width > 576) {
     .service_grid {
         grid-template-columns: repeat(2, 1fr);
