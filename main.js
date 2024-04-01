@@ -49,4 +49,10 @@ ScrollReveal().reveal(".about_content .about_btn", {
     delay:1000
 })
 
+//service container
+ScrollReveal().reveal(".service_card", {
+    ...scrollRevealOption,
+    interval: 500,
+})
+
 
