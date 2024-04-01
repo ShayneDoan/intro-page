@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root{
-    --primary-color: #e9615e;
-    --secondary-color: #ec9956;
+    --primary-color: #5e8fe9;
+    --secondary-color: #3e3bc9;
     --extra-light: #f3f4f6;
     --white:#ffffff;
-    --gradient-1: linear-gradient(to bottom right, #62393c, #181e41);
+    --gradient-1: linear-gradient(to bottom right, #09203F, #537895);
     --gradient-2: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
     --max-width: 1200px;
 }
@@ -100,7 +100,7 @@ nav {
     background-image: var(--gradient-1);
 }
 
-.nav_logo{
+.nav_logo {
     padding: 9px 12px;
     font-size: 19.2px;
 }
@@ -111,7 +111,7 @@ nav {
     color: var(--white);
 }
 
-.nav_menu_btn{
+.nav_menu_btn {
     font-size: 24px;
     color: var(--white);
     cursor: pointer;
