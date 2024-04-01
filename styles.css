@@ -233,37 +233,6 @@ nav {
     margin-bottom: 2rem;
 }
 
-.service_grid {
-    margin-top: 32px;
-    display: grid;
-    gap: 16px;
-}
-  
-.service_card {
-    padding: 32px 16px;
-    text-align: center;
-    background-image: var(--gradient-2);
-    border-radius: 16px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-  
-.service_card span {
-    display: inline-block;
-    margin-bottom: 16px;
-    font-size: 32px;
-}
-  
-.service_card h4 {
-    margin-bottom: 16px;
-    font-size: 19.2px;
-    font-weight: 700;
-}
-  
-.service_card p {
-    color: var(--extra-light);
-    line-height: 32px;
-}
-
 .portfolio_grid {
     margin-top: 32px;
     display: grid;
@@ -282,32 +251,6 @@ nav {
 
 .portfolio_card:hover img {
     transform: scale(1.1);
-}
-
-.portfolio_banner{
-    margin-top: 32px;
-    padding: 32px;
-    display: grid;
-    gap: 32px;
-    text-align: center;
-    background-image: var(--gradient-2);
-    border-radius: 16px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.portfolio_banner_card span {
-    display: inline-block;
-    margin-bottom: 8px;
-    font-size: 24px;
-}
-
-.portfolio_banner_card h4 {
-    font-size: 19.2px;
-    font-weight: 600;
-}
-
-.portfolio_banner_card p {
-    font-weight: 500;
 }
 
 .contact_container {
@@ -344,17 +287,8 @@ nav {
 
 
 @media (width > 576) {
-    .service_grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .portfolio_grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .portfolio_banner {
-        grid-template-columns: repeat(2, 1fr);
-        text-align: left;
     }
 }
 
@@ -433,20 +367,12 @@ nav {
         text-align: 1;
     }
 
-    .service_grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     .portfolio_container :is(.section_header, .section_description) {
         text-align: left;
         margin-inline-start: unset;
     }
 
     .portfolio_grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .portfolio_banner {
         grid-template-columns: repeat(3, 1fr);
     }
 }

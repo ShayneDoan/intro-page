@@ -33,11 +33,6 @@ ScrollReveal().reveal(".header_content .section_description", {
     delay: 500,
 });
 
-ScrollReveal().reveal(".header_content .header_btn", {
-    ...scrollRevealOption,
-    delay: 1000,
-});
-
 //about container 
 ScrollReveal().reveal(".about_content .section_description", {
     ...scrollRevealOption,
@@ -49,11 +44,6 @@ ScrollReveal().reveal(".about_content .about_btn", {
     delay:1000
 });
 
-//service container
-ScrollReveal().reveal(".service_card", {
-    ...scrollRevealOption,
-    interval: 500,
-});
 
 //portfolio container
 ScrollReveal().reveal(".portfolio_card", {
