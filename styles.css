@@ -149,6 +149,49 @@ nav {
     display: none;
 }
 
+.header_container {
+    padding-top: 128px; 
+    display: grid;
+    gap: 32px;
+    isolation: isolate;
+}
+
+.header_content {
+    text-align: center;
+}
+
+.header_content h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.header_content .section_description {
+    margin-bottom: 32px;
+}
+
+.header_image {
+    position: relative;
+    isolation: isolate;
+    z-index: -1;
+}
+
+.header_image img {
+    max-width: 450px;
+    margin-inline: auto;
+    border-radius: 400px;
+}
+
+.header_image::after {
+    position: absolute;
+    content: "SHAYAAN";
+    letter-spacing: 24px;
+    opacity: .5;
+    right: 16px;
+    top: 50%;
+    transform: translate(50%, -50%) rotate(90deg);
+}
+
 @media (width > 768px){
     nav{
         padding: 32px 16px;
